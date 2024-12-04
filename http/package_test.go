@@ -11,7 +11,7 @@ func ExampleExchange() {
 	resp, status := Exchange(r)
 	if status.OK() {
 		//buf, _ := io.ReadAll(resp.Body, nil)
-		fmt.Printf("test: Exchange(r) -> [status:%v] [status-code:%v] [%v]\n", status, resp.StatusCode, resp.Header.Get(core.XAuthority))
+		fmt.Printf("test: Exchange(r) -> [status:%v] [status-code:%v] [%v]\n", status, resp.StatusCode, resp.Header.Get(core.XDomain))
 	}
 
 	//Output:

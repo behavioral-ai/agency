@@ -1,10 +1,10 @@
 package ops
 
 import (
-	"github.com/advanced-go/log/timeseries"
-	"github.com/advanced-go/resiliency/guidance"
 	"github.com/behavioral-ai/core/core"
 	"github.com/behavioral-ai/core/messaging"
+	"github.com/behavioral-ai/log/timeseries"
+	"github.com/behavioral-ai/resiliency/guidance"
 )
 
 const (

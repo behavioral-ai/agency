@@ -2,7 +2,7 @@ package resiliency
 
 import (
 	"errors"
-	"github.com/advanced-go/agency/ops"
+	"github.com/behavioral-ai/agency/ops"
 	"github.com/behavioral-ai/core/core"
 	"github.com/behavioral-ai/core/httpx"
 	"net/http"

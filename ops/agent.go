@@ -1,7 +1,7 @@
 package ops
 
 import (
-	"github.com/advanced-go/agents/caseofficer"
+	"github.com/behavioral-ai/agents/caseofficer"
 	"github.com/behavioral-ai/core/core"
 	"github.com/behavioral-ai/core/messaging"
 )

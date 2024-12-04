@@ -3,8 +3,8 @@ package http
 import (
 	"errors"
 	"fmt"
-	"github.com/advanced-go/agency/module"
-	"github.com/advanced-go/agency/resiliency"
+	"github.com/behavioral-ai/agency/module"
+	"github.com/behavioral-ai/agency/resiliency"
 	"github.com/behavioral-ai/core/core"
 	"github.com/behavioral-ai/core/httpx"
 	"github.com/behavioral-ai/core/uri"
@@ -32,7 +32,7 @@ func Exchange(r *http.Request) (*http.Response, *core.Status) {
 		status := core.NewStatusError(http.StatusBadRequest, errors.New("request is nil"))
 		return httpx.NewResponse(status.HttpCode(), h2, status.Err)
 	}
-	p, err := uri.ValidateURL(r.URL, module.Authority)
+	p, err := uri.ValidateURL(r.URL, module.Domain)
 	if err != nil {
 		status := core.NewStatusError(http.StatusBadRequest, err)
 		resp1, _ := httpx.NewResponse(status.HttpCode(), h2, status.Err)
