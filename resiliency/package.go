@@ -3,13 +3,13 @@ package resiliency
 import (
 	"errors"
 	"github.com/advanced-go/agency/ops"
-	"github.com/advanced-go/common/core"
-	"github.com/advanced-go/common/httpx"
+	"github.com/behavioral-ai/core/core"
+	"github.com/behavioral-ai/core/httpx"
 	"net/http"
 )
 
 const (
-	PkgPath = "github/advanced-go/agency/resiliency"
+	PkgPath = "github/behaviroal-ai/agency/resiliency"
 	action  = "action"
 	start   = "start"
 	stop    = "stop"

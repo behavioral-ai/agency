@@ -2,7 +2,7 @@ package ops
 
 import (
 	"errors"
-	"github.com/advanced-go/common/core"
+	"github.com/behavioral-ai/core/core"
 )
 
 func createAssignments(agent *ops, newAgent newOfficerAgent) {

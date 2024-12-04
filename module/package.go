@@ -1,6 +1,6 @@
 package module
 
 const (
-	Authority = "github/advanced-go/agency"
+	Domain    = "github/behavioral-ai/agency"
 	RouteName = "agency"
 )

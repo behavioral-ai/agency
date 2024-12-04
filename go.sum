@@ -1,10 +1,2 @@
-github.com/advanced-go/agents v0.0.0-20241124191257-7a510d6f5d38 h1:ijgiYpLk2RJpiRwcbobfjmx6KvqF+xFws5YeQs3YeF8=
-github.com/advanced-go/agents v0.0.0-20241124191257-7a510d6f5d38/go.mod h1:SGlMjUthSw5qFGRXCOQlnAfSzhuNdLtfY2KVq4q5K8M=
-github.com/advanced-go/common v0.0.0-20241124184821-b0327f51d332 h1:xIPWVfDe4FfFBrzetXTF/J0VwbwtF3feSyOJQWbH/CI=
-github.com/advanced-go/common v0.0.0-20241124184821-b0327f51d332/go.mod h1:ZO9q9c1GB9gQOeuWiAk0fT7pH8nfmNarGHi/Qu4LP/Q=
-github.com/advanced-go/log v0.0.0-20241123135241-5c23b55c7556 h1:3vvIULukdobBG08Ug06eG0TVt5TnL5u3ws7YhFLVbXc=
-github.com/advanced-go/log v0.0.0-20241123135241-5c23b55c7556/go.mod h1:5Xg63AfI0Qe4fdvgvcilsmyfPoqz2d6ygiNrrFGFYjM=
-github.com/advanced-go/resiliency v0.0.0-20241123135340-2f24a70264af h1:wYkL1z9/kdbIgSs/K+qnNwrMPWcJMrvVLVGQQ9otly8=
-github.com/advanced-go/resiliency v0.0.0-20241123135340-2f24a70264af/go.mod h1:Fv4V7mb8pw41ZSKgQxpAebNOQktgqt11Ne4xVA+ikEk=
-github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
-github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/behavioral-ai/core v0.0.0-20241204004648-19df76691f5e h1:L0lrlPb73CNyGV7faFRMiENf8w/YAhCyiD+n4QuL27Y=
+github.com/behavioral-ai/core v0.0.0-20241204004648-19df76691f5e/go.mod h1:sqpbaRPtMXUb4j6CbCuwWvQrD6pUKJm5oZEKPDynlPE=

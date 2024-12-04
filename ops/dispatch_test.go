@@ -2,7 +2,7 @@ package ops
 
 import (
 	"fmt"
-	"github.com/advanced-go/common/messaging"
+	"github.com/behavioral-ai/core/messaging"
 )
 
 type dispatchT struct{}

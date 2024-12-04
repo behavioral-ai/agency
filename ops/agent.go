@@ -2,8 +2,8 @@ package ops
 
 import (
 	"github.com/advanced-go/agents/caseofficer"
-	"github.com/advanced-go/common/core"
-	"github.com/advanced-go/common/messaging"
+	"github.com/behavioral-ai/core/core"
+	"github.com/behavioral-ai/core/messaging"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"github.com/advanced-go/agency/module"
 	"github.com/advanced-go/agency/resiliency"
-	"github.com/advanced-go/common/core"
-	"github.com/advanced-go/common/httpx"
-	"github.com/advanced-go/common/uri"
+	"github.com/behavioral-ai/core/core"
+	"github.com/behavioral-ai/core/httpx"
+	"github.com/behavioral-ai/core/uri"
 	"net/http"
 )
 

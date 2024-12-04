@@ -1,14 +1,14 @@
 package ops
 
 import (
-	"github.com/advanced-go/common/core"
-	"github.com/advanced-go/common/messaging"
 	"github.com/advanced-go/log/timeseries"
 	"github.com/advanced-go/resiliency/guidance"
+	"github.com/behavioral-ai/core/core"
+	"github.com/behavioral-ai/core/messaging"
 )
 
 const (
-	PkgPath = "github/advanced-go/agency/ops"
+	PkgPath = "github/behavioral-ai/agency/ops"
 )
 
 var (

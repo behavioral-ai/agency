@@ -2,7 +2,7 @@ package http
 
 import (
 	"fmt"
-	"github.com/advanced-go/common/core"
+	"github.com/behavioral-ai/core/core"
 	"net/http"
 )
 
