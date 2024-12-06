@@ -15,7 +15,7 @@ func ExampleInitialize_Error() {
 	fmt.Printf("test: initialize() -> [status:%v]\n", notifier.Status())
 
 	notifier.Reset()
-	createAssignments(agent, func(origin core.Origin, handler messaging.OpsAgent, dispatcher messaging.TraceDispatcher) messaging.OpsAgent {
+	createAssignments(agent, func(origin core.Origin, handler messaging.OpsAgent, dispatcher messaging.Dispatcher) messaging.OpsAgent {
 		return test.NewAgent("")
 	})
 	fmt.Printf("test: initialize() -> [status:%v]\n", notifier.Status())
@@ -26,7 +26,7 @@ func ExampleInitialize_Error() {
 	if err != nil {
 		fmt.Printf("test: Register() -> [err:%v]\n", err)
 	}
-	createAssignments(agent, func(origin core.Origin, handler messaging.OpsAgent, dispatcher messaging.TraceDispatcher) messaging.OpsAgent {
+	createAssignments(agent, func(origin core.Origin, handler messaging.OpsAgent, dispatcher messaging.Dispatcher) messaging.OpsAgent {
 		return a
 	})
 	fmt.Printf("test: initialize() -> [status:%v]\n", notifier.Status())

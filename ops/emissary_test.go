@@ -19,7 +19,7 @@ func init() {
 	dataChangeMsg.SetContent(guidance.ContentTypeCalendar, guidance.NewProcessingCalendar())
 }
 
-func officer(origin core.Origin, handler messaging.OpsAgent, dispatcher messaging.TraceDispatcher) messaging.OpsAgent {
+func officer(origin core.Origin, handler messaging.OpsAgent, dispatcher messaging.Dispatcher) messaging.OpsAgent {
 	return test.NewAgent("officer:" + origin.Region)
 }
 
